@@ -1,0 +1,17 @@
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: calc(100vh/2 - 100px);
+}
+
+.main__button {
+    border: 0;
+    padding: 0;
+    background: transparent;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.main__button:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,7 @@
+@import url(./vendor/normalize.css);
+@import url(./fonts/fonts.css);
+
+@import url(./components/App/App.css);
+@import url(./components/Header/Header.css);
+@import url(./components/Main/Main.css);
+@import url(./components/Search/Search.css);
