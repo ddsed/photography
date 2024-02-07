@@ -1,3 +1,87 @@
 .search {
+    display: flex;
+    flex-direction: column;
     background-color: black;
+    height: 100vh;
+}
+
+.search__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: calc(100vh/2 - 150px);
+}
+
+.search__arrow-up {
+    width: 24px;
+    height: 24px;
+    background-image: url(../../images/arrow-up.svg);
+}
+
+.search__arrow-down {
+    width: 24px;
+    height: 24px;
+    background-image: url(../../images/arrow-down.svg);
+}
+
+.search__link {
+    text-decoration: none;
+    color: black;
+}
+
+.search__place {
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+    margin: 0;
+}
+
+.search__header {
+    display: flex;
+    padding: 40px 108px 0;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.search__link {
+    text-decoration: none;
+    color: black;
+    cursor: default;
+}
+
+.search__title {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: white;
+
+    margin: 0;
+}
+
+.search__contacts {
+    display: flex;
+}
+
+.search__email {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: white;
+
+    margin: 0;
+    margin-right: 10px;
+    cursor: default;
+}
+
+.search__insta {
+    cursor: default;
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../../images/icon-wh.svg);
+}
+
+.search__insta:hover {
+    cursor: default;
+    background-image: url(../../images/icon-chosen-wh.svg);
 }

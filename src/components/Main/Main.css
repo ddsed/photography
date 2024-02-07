@@ -1,7 +1,7 @@
 .main {
     display: flex;
     justify-content: center;
-    margin-top: calc(100vh/2 - 100px);
+    flex-direction: column;
 }
 
 .main__button {
@@ -10,8 +10,56 @@
     background: transparent;
     font-size: 32px;
     font-weight: 400;
+    margin-top: calc(100vh/2 - 100px);
 }
 
 .main__button:hover {
     text-decoration: underline;
+}
+
+.main__header {
+    display: flex;
+    padding: 40px 108px 0;
+    justify-content: space-between;
+}
+
+.main__link {
+    text-decoration: none;
+    color: black;
+    cursor: default;
+}
+
+.main__title {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+
+    margin: 0;
+}
+
+.main__contacts {
+    display: flex;
+}
+
+.main__email {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+
+    margin: 0;
+    margin-right: 10px;
+    cursor: default;
+}
+
+.main__insta {
+    cursor: unset;
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../../images/icon.svg);
+}
+
+.main__insta:hover {
+    cursor: unset;
+    background-image: url(../../images/icon-chosen.svg);
 }
