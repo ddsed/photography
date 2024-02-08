@@ -1,0 +1,67 @@
+{
+    "slides": [
+      {
+        "introline": "dogs",
+        "id": "dogs",
+        "content": {
+          "image": "https://via.placeholder.com/400x200?text=Dogs"
+        }
+      },
+      {
+        "introline": "elephants",
+        "id": "elephants",
+        "content": {
+          "image": "https://via.placeholder.com/400x200?text=Elephants"
+        }
+      },
+      {
+        "introline": "bears",
+        "id": "bears",
+        "content": {
+          "image": "https://via.placeholder.com/400x200?text=Bears"
+        }
+      },
+      {
+        "introline": "lizards",
+        "id": "lizards",
+        "content": {
+          "image": "https://via.placeholder.com/400x200?text=Lizards"
+        }
+      },
+      {
+        "introline": "snakes",
+        "id": "snakes",
+        "content": {
+          "image": "https://via.placeholder.com/400x200?text=Snakes"
+        }
+      },
+      {
+        "introline": "cats",
+        "id": "cats",
+        "content": {
+          "image": "https://via.placeholder.com/400x200?text=Cats"
+        }
+      },
+      {
+        "introline": "giraffes",
+        "id": "giraffes",
+        "content": {
+          "image": "https://via.placeholder.com/400x200?text=Giraffes"
+        }
+      },
+      {
+        "introline": "owls",
+        "id": "owls",
+        "content": {
+          "image": "https://via.placeholder.com/400x200?text=Owls"
+        }
+      },
+      {
+        "introline": "horses",
+        "id": "horses",
+        "content": {
+          "image": "https://via.placeholder.com/400x200?text=horses"
+        }
+      }
+    ]
+  }

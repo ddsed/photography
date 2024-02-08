@@ -11,7 +11,7 @@ function App() {
     <div className="page">
       <Routes>
         <Route path="/" element={ <Main />}/>
-        <Route path="/search/" element={ <Search />}/>
+        <Route path="/search/" element={ <Search/>}/>
         <Route path="/africa/" element={ <Africa />}/>
         <Route path="/kamchatka/" element={ <Kamchatka />}/>
         <Route path="/lofotens/" element={ <Lofotens />}/>

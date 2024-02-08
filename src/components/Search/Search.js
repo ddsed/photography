@@ -1,5 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import data from "../../data.json";
+
+import VerticalCarousel from "../VerticalCarousel/VerticalCarousel";
 
 
 function Search() {
@@ -12,11 +15,15 @@ function Search() {
                 </Link>
                 <div className="search__contacts">
                     <p className="search__email">dashassed@gmail.com</p>
-                    <a href="https://www.instagram.com/_sedova___/" className="search__insta" rel="noreferrer" target="_blank"></a>
+                    <Link to="https://www.instagram.com/_sedova___/" className="search__insta" rel="noreferrer" target="_blank"></Link>
                 </div>
-            </section>  
+            </section> 
+            <VerticalCarousel data={data.slides}/>
+
+            {/*
             <section className="search__list">
-                <div className="search__arrow-up"></div>
+                {/*<div className="search__arrow-up"></div>
+                <Carousel/>
                 <Link to='/lofotens/' className='search__link'>
                     <h2 className="search__place">LOFOTENS</h2>
                 </Link>
@@ -28,6 +35,7 @@ function Search() {
                 </Link>
                 <div className="search__arrow-down"></div>
             </section>
+            */}
         </main>
     );
 }
