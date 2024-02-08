@@ -1,64 +1,64 @@
 {
     "slides": [
       {
-        "introline": "dogs",
-        "id": "dogs",
+        "introline": "LOFOTENS",
+        "id": "LOFOTENS",
         "content": {
           "image": "https://via.placeholder.com/400x200?text=Dogs"
         }
       },
       {
-        "introline": "elephants",
-        "id": "elephants",
+        "introline": "KAMCHATKA",
+        "id": "KAMCHATKA",
         "content": {
           "image": "https://via.placeholder.com/400x200?text=Elephants"
         }
       },
       {
-        "introline": "bears",
-        "id": "bears",
+        "introline": "KHIBINY",
+        "id": "KHIBINY",
         "content": {
           "image": "https://via.placeholder.com/400x200?text=Bears"
         }
       },
       {
-        "introline": "lizards",
-        "id": "lizards",
+        "introline": "AFRICA",
+        "id": "AFRICA",
         "content": {
           "image": "https://via.placeholder.com/400x200?text=Lizards"
         }
       },
       {
-        "introline": "snakes",
-        "id": "snakes",
+        "introline": "FRANCE",
+        "id": "FRANCE",
         "content": {
           "image": "https://via.placeholder.com/400x200?text=Snakes"
         }
       },
       {
-        "introline": "cats",
-        "id": "cats",
+        "introline": "DAGESTAN",
+        "id": "DAGESTAN",
         "content": {
           "image": "https://via.placeholder.com/400x200?text=Cats"
         }
       },
       {
-        "introline": "giraffes",
-        "id": "giraffes",
+        "introline": "ITALY",
+        "id": "ITALY",
         "content": {
           "image": "https://via.placeholder.com/400x200?text=Giraffes"
         }
       },
       {
-        "introline": "owls",
-        "id": "owls",
+        "introline": "NORWAY",
+        "id": "NORWAY",
         "content": {
           "image": "https://via.placeholder.com/400x200?text=Owls"
         }
       },
       {
-        "introline": "horses",
-        "id": "horses",
+        "introline": "ARKHYZ",
+        "id": "ARKHYZ",
         "content": {
           "image": "https://via.placeholder.com/400x200?text=horses"
         }

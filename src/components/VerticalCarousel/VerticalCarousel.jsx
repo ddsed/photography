@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
 import PropTypes from "prop-types";
 import cn from "classnames";
 import { ReactComponent as Next } from "../../images/arrow-down.svg";
@@ -12,8 +13,9 @@ import { ReactComponent as Prev } from "../../images/arrow-up.svg";
 const VerticalCarousel = ({ data }) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
+
   // Used to determine which items appear above the active item
-  const halfwayIndex = Math.ceil(data.length / 2);
+  const halfwayIndex = Math.ceil(data.length / 4);
 
   // Usd to determine the height/spacing of each item
   const itemHeight = 52;
@@ -83,18 +85,23 @@ const VerticalCarousel = ({ data }) => {
                 {data.map((item, i) => (
                   <button
                     type="button"
-                    onClick={() => setActiveIndex(i)}
+                    onClick={() => {
+                      setActiveIndex(i)
+                    }}
                     className={cn("carousel-item", {
                       active: activeIndex === i,
                       visible:
                         Math.abs(determinePlacement(i)) <= visibleStyleThreshold
-                    })}
+                    }
+                    )}
                     key={item.id}
                     style={{
                       transform: `translateY(${determinePlacement(i)}px)`
                     }}
                   >
+                    <Link to={`/${item.introline.toLowerCase()}`} className='carousel__link'>
                     {item.introline}
+                    </Link>
                   </button>
                 ))}
               </div>
