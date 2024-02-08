@@ -63,27 +63,27 @@ const VerticalCarousel = ({ data }) => {
   };
 
   return (
-    <section className="container">
-      <div className="outer-container">
-        <div className="carousel-wrapper">
+    <section className="carousel">
+      <div className="carousel__outer-container">
+        <div className="carousel__wrapper">
           <button
             type="button"
-            className="carousel-button prev"
+            className="carousel__button prev"
             onClick={() => handleClick("prev")}
           >
             <Prev />
           </button>
 
-          <div className="carousel">
-            <div className="slides">
-              <div className="carousel-inner">
+          <div className="carousel__container">
+            <div className="carousel__slides">
+              <div className="carousel__inner-container">
                 {data.map((item, i) => (
                   <button
                     type="button"
                     onClick={() => {
                       setActiveIndex(i)
                     }}
-                    className={cn("carousel-item", {
+                    className={cn("carousel__item", {
                       active: activeIndex === i,
                       visible:
                         Math.abs(determinePlacement(i)) <= visibleStyleThreshold,
@@ -109,15 +109,16 @@ const VerticalCarousel = ({ data }) => {
 
           <button
             type="button"
-            className="carousel-button next"
+            className="carousel__button next"
             onClick={() => handleClick("next")}
           >
             <Next />
           </button>
         </div>
-        <div className="content">
-          <div className="overlay"></div>
+        <div className="carousel__photo-container">
+          <div className="carousel__photo-overlay"></div>
           <img
+            className="carousel__photo"
             src={require(`../../images/${data[activeIndex].image}`)}
             alt={data[activeIndex].introline}
           />
