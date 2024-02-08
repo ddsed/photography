@@ -5,11 +5,6 @@ import cn from "classnames";
 import { ReactComponent as Next } from "../../images/arrow-down.svg";
 import { ReactComponent as Prev } from "../../images/arrow-up.svg";
 
-/*
- * Read the blog post here:
- * https://letsbuildui.dev/articles/building-a-vertical-carousel-component-in-react
- */
-
 const VerticalCarousel = ({ data }) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
@@ -68,8 +63,8 @@ const VerticalCarousel = ({ data }) => {
   };
 
   return (
-    <div className="container">
-      <section className="outer-container">
+    <section className="container">
+      <div className="outer-container">
         <div className="carousel-wrapper">
           <button
             type="button"
@@ -91,7 +86,7 @@ const VerticalCarousel = ({ data }) => {
                     className={cn("carousel-item", {
                       active: activeIndex === i,
                       visible:
-                        Math.abs(determinePlacement(i)) <= visibleStyleThreshold
+                        Math.abs(determinePlacement(i)) <= visibleStyleThreshold,
                     }
                     )}
                     key={item.id}
@@ -99,9 +94,13 @@ const VerticalCarousel = ({ data }) => {
                       transform: `translateY(${determinePlacement(i)}px)`
                     }}
                   >
-                    <Link to={`/${item.introline.toLowerCase()}`} className='carousel__link'>
-                    {item.introline}
+                  { Math.abs(determinePlacement(i)) === 52 || determinePlacement(i) === 0 ? (
+                    <Link to={`/${item.introline.toLowerCase()}`} className="carousel__link">
+                      {item.introline}
                     </Link>
+                  ) : (
+                    <span className="carousel__link-disabled">{item.introline}</span>
+                  )}
                   </button>
                 ))}
               </div>
@@ -117,19 +116,19 @@ const VerticalCarousel = ({ data }) => {
           </button>
         </div>
         <div className="content">
+          <div className="overlay"></div>
           <img
-            src={data[activeIndex].content.image}
-            alt={data[activeIndex].content.introline}
+            src={require(`../../images/${data[activeIndex].image}`)}
+            alt={data[activeIndex].introline}
           />
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 
 VerticalCarousel.propTypes = {
   data: PropTypes.array.isRequired,
-  leadingText: PropTypes.string.isRequired
 };
 
 export default VerticalCarousel;

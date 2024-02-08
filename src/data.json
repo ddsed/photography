@@ -1,67 +1,49 @@
 {
-    "slides": [
-      {
-        "introline": "LOFOTENS",
-        "id": "LOFOTENS",
-        "content": {
-          "image": "https://via.placeholder.com/400x200?text=Dogs"
-        }
-      },
-      {
-        "introline": "KAMCHATKA",
-        "id": "KAMCHATKA",
-        "content": {
-          "image": "https://via.placeholder.com/400x200?text=Elephants"
-        }
-      },
-      {
-        "introline": "KHIBINY",
-        "id": "KHIBINY",
-        "content": {
-          "image": "https://via.placeholder.com/400x200?text=Bears"
-        }
-      },
-      {
-        "introline": "AFRICA",
-        "id": "AFRICA",
-        "content": {
-          "image": "https://via.placeholder.com/400x200?text=Lizards"
-        }
-      },
-      {
-        "introline": "FRANCE",
-        "id": "FRANCE",
-        "content": {
-          "image": "https://via.placeholder.com/400x200?text=Snakes"
-        }
-      },
-      {
-        "introline": "DAGESTAN",
-        "id": "DAGESTAN",
-        "content": {
-          "image": "https://via.placeholder.com/400x200?text=Cats"
-        }
-      },
-      {
-        "introline": "ITALY",
-        "id": "ITALY",
-        "content": {
-          "image": "https://via.placeholder.com/400x200?text=Giraffes"
-        }
-      },
-      {
-        "introline": "NORWAY",
-        "id": "NORWAY",
-        "content": {
-          "image": "https://via.placeholder.com/400x200?text=Owls"
-        }
-      },
-      {
-        "introline": "ARKHYZ",
-        "id": "ARKHYZ",
-        "content": {
-          "image": "https://via.placeholder.com/400x200?text=horses"
-        }
-      }
-    ]
-  }
+  "slides": [
+    {
+      "introline": "LOFOTENS",
+      "id": "LOFOTENS",
+      "image": "kamchatka.jpg"
+    },
+    {
+      "introline": "KAMCHATKA",
+      "id": "KAMCHATKA",
+      "image": "kamchatka.jpg"
+    },
+    {
+      "introline": "KHIBINY",
+      "id": "KHIBINY",
+      "image": "khibiny.jpg"
+    },
+    {
+      "introline": "AFRICA",
+      "id": "AFRICA",
+      "image": "africa.jpg"
+    },
+    {
+      "introline": "FRANCE",
+      "id": "FRANCE",
+      "image": "kamchatka.jpg"
+    },
+    {
+      "introline": "DAGESTAN",
+      "id": "DAGESTAN",
+      "image": "kamchatka.jpg"
+    },
+    {
+      "introline": "ITALY",
+      "id": "ITALY",
+      "image": "kamchatka.jpg"
+    },
+    {
+      "introline": "NORWAY",
+      "id": "NORWAY",
+      "image": "kamchatka.jpg"
+    },
+    {
+      "introline": "ARKHYZ",
+      "id": "ARKHYZ",
+      "image": "kamchatka.jpg"
+    }
+  ]
+}

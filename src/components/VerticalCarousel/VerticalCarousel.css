@@ -19,7 +19,9 @@ img {
 }
 
 .content {
-  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .outer-container {
@@ -35,6 +37,18 @@ img {
 .outer-container .carousel-wrapper {
   display: flex;
   flex-direction: column;
+  z-index: 2;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0.3;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
 }
 
 .outer-container .carousel-wrapper p,
@@ -87,6 +101,10 @@ img {
   font-weight: 400;
   color: white;
   margin: 0;
+}
+
+.carousel__link-disabled {
+  cursor: default;
 }
 
 .slides {
