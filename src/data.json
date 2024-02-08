@@ -28,7 +28,7 @@
     {
       "introline": "DAGESTAN",
       "id": "DAGESTAN",
-      "image": "kamchatka.jpg"
+      "image": "dagestan.jpg"
     },
     {
       "introline": "ITALY",
@@ -44,6 +44,11 @@
       "introline": "ARKHYZ",
       "id": "ARKHYZ",
       "image": "kamchatka.jpg"
+    },
+    {
+      "introline": "ELBRUS",
+      "id": "ELBRUS",
+      "image": "elbrus.jpg"
     }
   ]
 }
