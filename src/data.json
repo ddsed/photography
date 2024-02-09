@@ -1,52 +1,38 @@
 {
   "slides": [
     {
-      "introline": "KHIBINY",
       "id": "KHIBINY",
       "image": "khibiny.jpg"
     },
     {
-      "introline": "LOFOTENS",
       "id": "LOFOTENS",
       "image": "lofotens.jpg"
     },
     {
-      "introline": "KAMCHATKA",
       "id": "KAMCHATKA",
       "image": "kamchatka.jpg"
     },
     {
-      "introline": "AFRICA",
       "id": "AFRICA",
       "image": "africa.jpg"
     },
     {
-      "introline": "FRANCE",
       "id": "FRANCE",
       "image": "france.jpg"
     },
     {
-      "introline": "DAGESTAN",
       "id": "DAGESTAN",
       "image": "dagestan.jpg"
     },
     {
-      "introline": "ITALY",
-      "id": "ITALY",
-      "image": "kamchatka.jpg"
-    },
-    {
-      "introline": "NORWAY",
       "id": "NORWAY",
       "image": "kamchatka.jpg"
     },
     {
-      "introline": "ARKHYZ",
       "id": "ARKHYZ",
       "image": "arkhyz.jpg"
     },
     {
-      "introline": "ELBRUS",
       "id": "ELBRUS",
       "image": "elbrus.jpg"
     }

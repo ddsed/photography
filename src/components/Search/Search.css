@@ -50,6 +50,10 @@
     cursor: default;
 }
 
+.search__link:hover {
+    cursor: pointer;
+}
+
 .search__title {
     font-size: 14px;
     line-height: 24px;
@@ -83,6 +87,6 @@
 }
 
 .search__insta:hover {
-    cursor: default;
+    cursor: pointer;
     background-image: url(../../images/icon-chosen-wh.svg);
 }

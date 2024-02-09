@@ -1,0 +1,14 @@
+.place__container {
+    margin: 32px 108px 0;
+}
+
+.place__back {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+.place__back:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

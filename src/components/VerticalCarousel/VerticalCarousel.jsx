@@ -59,7 +59,7 @@ const VerticalCarousel = ({ data }) => {
     document.querySelector('.carousel__photo-overlay').classList.add('fade-in');
     setTimeout(() => {
       document.querySelector('.carousel__photo-overlay').classList.remove('fade-in');
-    }, 400);
+    }, 500);
   };
 
   return (
@@ -95,11 +95,11 @@ const VerticalCarousel = ({ data }) => {
                     }}
                   >
                   { Math.abs(determinePlacement(i)) === 52 || determinePlacement(i) === 0 ? (
-                    <Link to={`/${item.introline.toLowerCase()}`} className="carousel__link">
-                      {item.introline}
+                    <Link to={`/${item.id.toLowerCase()}`} className="carousel__link">
+                      {item.id}
                     </Link>
                   ) : (
-                    <span className="carousel__link-disabled">{item.introline}</span>
+                    <span className="carousel__link-disabled">{item.id}</span>
                   )}
                   </button>
                 ))}
@@ -120,7 +120,7 @@ const VerticalCarousel = ({ data }) => {
           <img
             className="carousel__photo"
             src={require(`../../images/covers/${data[activeIndex].image}`)}
-            alt={data[activeIndex].introline}
+            alt={data[activeIndex].id}
             loading="lazy"
           />
         </div>
