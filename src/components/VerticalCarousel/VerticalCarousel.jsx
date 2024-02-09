@@ -8,21 +8,16 @@ import { ReactComponent as Prev } from "../../images/arrow-up.svg";
 const VerticalCarousel = ({ data }) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
-
   // Used to determine which items appear above the active item
   const halfwayIndex = Math.ceil(data.length / 4);
-
   // Usd to determine the height/spacing of each item
   const itemHeight = 52;
-
   // Used to determine at what point an item is moved from the top to the bottom
   const shuffleThreshold = halfwayIndex * itemHeight;
-
   // Used to determine which items should be visible. this prevents the "ghosting" animation
   const visibleStyleThreshold = shuffleThreshold / 2;
 
   const determinePlacement = (itemIndex) => {
-    // If these match, the item is active
     if (activeIndex === itemIndex) return 0;
 
     if (itemIndex >= halfwayIndex) {
@@ -60,6 +55,11 @@ const VerticalCarousel = ({ data }) => {
 
       return prevIndex - 1;
     });
+
+    document.querySelector('.carousel__photo-overlay').classList.add('fade-in');
+    setTimeout(() => {
+      document.querySelector('.carousel__photo-overlay').classList.remove('fade-in');
+    }, 400);
   };
 
   return (
@@ -119,8 +119,9 @@ const VerticalCarousel = ({ data }) => {
           <div className="carousel__photo-overlay"></div>
           <img
             className="carousel__photo"
-            src={require(`../../images/${data[activeIndex].image}`)}
+            src={require(`../../images/covers/${data[activeIndex].image}`)}
             alt={data[activeIndex].introline}
+            loading="lazy"
           />
         </div>
       </div>
