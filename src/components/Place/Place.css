@@ -1,5 +1,5 @@
-.place__container {
-    margin: 32px 108px 0;
+.place__section {
+    margin: 32px 103px 0;
 }
 
 .place__back {
@@ -11,4 +11,29 @@
 .place__back:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+.place__grid-container {
+    display: grid;
+    margin-top: 10px;
+}
+
+.place__grid-container_khibiny {
+    grid-template-columns: repeat(3, 318px);
+    grid-template-rows: repeat(2, 477px) repeat(2, 708px) 503px 1050px 477px 708px 1050px 477px 708px 477px 708px;
+    gap: 30px;
+    grid-template-areas:
+    "khibiny1 khibiny1 khibiny2"
+    "khibiny3 . ."
+    "khibiny4 khibiny4 khibiny4"
+    "khibiny5 khibiny5 khibiny5"
+    "khibiny6 khibiny7 khibiny8"
+    "khibiny9 khibiny9 ."
+    "khibiny10 khibiny11 khibiny11"
+    "khibiny12 khibiny12 khibiny12"
+    ". khibiny13 khibiny13"
+    "khibiny14 khibiny14 khibiny15"
+    "khibiny16 khibiny16 khibiny16"
+    "khibiny17 khibiny18 ."
+    "khibiny19 khibiny19 khibiny19";
 }
