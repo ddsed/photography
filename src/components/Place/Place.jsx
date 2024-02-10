@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
 import places from '../../places.json';
 
 function Place({activeSlideId}) {
@@ -12,7 +13,7 @@ function Place({activeSlideId}) {
 
     return (
         <main className="place">
-            <Header/>
+            <Header />
             <section className="place__section">
                 <Link to="/search" className="place__back" rel="noreferrer">back</Link> 
                 <div className={`place__grid-container place__grid-container_${place.name}`}>
@@ -32,6 +33,7 @@ function Place({activeSlideId}) {
                     ))}
                 </div>
             </section>
+            <Footer />
         </main>
     );
 }

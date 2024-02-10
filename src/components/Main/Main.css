@@ -10,7 +10,7 @@
     background: transparent;
     font-size: 32px;
     font-weight: 400;
-    margin-top: calc(100vh/2 - 100px);
+    margin: calc(100vh/2 - 100px) 0;
 }
 
 .main__button:hover {
