@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from 'react-router-dom';
 import PropTypes from "prop-types";
 import cn from "classnames";
 import { ReactComponent as Next } from "../../images/arrow-down.svg";
 import { ReactComponent as Prev } from "../../images/arrow-up.svg";
 
-const VerticalCarousel = ({ data }) => {
+const VerticalCarousel = ({ data, onActiveSlideChange }) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   // Used to determine which items appear above the active item
@@ -62,6 +62,10 @@ const VerticalCarousel = ({ data }) => {
     }, 500);
   };
 
+  useEffect(() => {
+    onActiveSlideChange(data[activeIndex].id.toLowerCase());
+  }, [activeIndex])
+
   return (
     <section className="carousel">
       <div className="carousel__outer-container">
@@ -95,7 +99,7 @@ const VerticalCarousel = ({ data }) => {
                     }}
                   >
                   { Math.abs(determinePlacement(i)) === 52 || determinePlacement(i) === 0 ? (
-                    <Link to={`/${item.id.toLowerCase()}`} className="carousel__link">
+                    <Link to={`/${item.id.toLowerCase()}`} className="carousel__link" style={{ pointerEvents: Math.abs(determinePlacement(i)) === 52 ? 'none' : 'auto' }}>
                       {item.id}
                     </Link>
                   ) : (
@@ -131,6 +135,7 @@ const VerticalCarousel = ({ data }) => {
 
 VerticalCarousel.propTypes = {
   data: PropTypes.array.isRequired,
+  onActiveSlideChange: PropTypes.func.isRequired,
 };
 
 export default VerticalCarousel;

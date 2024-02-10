@@ -1,0 +1,55 @@
+{
+  "khibiny": {
+    "name": "khibiny",
+    "photos": [
+      {"id": "1", "image": "khibiny1.jpg"},
+      {"id": "2", "image": "khibiny2.jpg"},
+      {"id": "3", "image": "khibiny3.jpg"},
+      {"id": "4", "image": "khibiny4.jpg"},
+      {"id": "5", "image": "khibiny5.jpg"},
+      {"id": "6", "image": "khibiny6.jpg"},
+      {"id": "7", "image": "khibiny7.jpg"},
+      {"id": "8", "image": "khibiny8.jpg"},
+      {"id": "9", "image": "khibiny9.jpg"},
+      {"id": "10", "image": "khibiny10.jpg"},
+      {"id": "11", "image": "khibiny11.jpg"},
+      {"id": "12", "image": "khibiny12.jpg"},
+      {"id": "13", "image": "khibiny13.jpg"},
+      {"id": "14", "image": "khibiny14.jpg"},
+      {"id": "15", "image": "khibiny15.jpg"},
+      {"id": "16", "image": "khibiny16.jpg"},
+      {"id": "17", "image": "khibiny17.jpg"},
+      {"id": "18", "image": "khibiny18.jpg"},
+      {"id": "19", "image": "khibiny19.jpg"}
+    ]
+  },
+  "dagestan": {
+    "name": "dagestan",
+    "photos": [
+      {"id": "1", "image": "dagestan1.jpg"},
+      {"id": "2", "image": "dagestan2.jpg"},
+      {"id": "3", "image": "dagestan3.jpg"},
+      {"id": "4", "image": "dagestan4.jpg"},
+      {"id": "5", "image": "dagestan5.jpg"},
+      {"id": "6", "image": "dagestan6.jpg"},
+      {"id": "7", "image": "dagestan7.jpg"},
+      {"id": "8", "image": "dagestan8.jpg"},
+      {"id": "9", "image": "dagestan9.jpg"},
+      {"id": "10", "image": "dagestan10.jpg"},
+      {"id": "11", "image": "dagestan11.jpg"},
+      {"id": "12", "image": "dagestan12.jpg"},
+      {"id": "13", "image": "dagestan13.jpg"},
+      {"id": "14", "image": "dagestan14.jpg"},
+      {"id": "15", "image": "dagestan15.jpg"},
+      {"id": "16", "image": "dagestan16.jpg"},
+      {"id": "17", "image": "dagestan17.jpg"},
+      {"id": "18", "image": "dagestan18.jpg"},
+      {"id": "19", "image": "dagestan19.jpg"},
+      {"id": "20", "image": "dagestan20.jpg"},
+      {"id": "21", "image": "dagestan21.jpg"},
+      {"id": "22", "image": "dagestan22.jpg"},
+      {"id": "23", "image": "dagestan23.jpg"},
+      {"id": "24", "image": "dagestan24.jpg"}
+    ]
+  }
+}

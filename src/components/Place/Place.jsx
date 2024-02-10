@@ -1,9 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../Header/Header';
-import place from '../../place.json';
+import places from '../../places.json';
 
-function Place() {
+function Place({activeSlideId}) {
+    const place = places[activeSlideId];
+
+    if (!place) {
+        return <div>Place not found</div>;
+    }
+
     return (
         <main className="place">
             <Header/>
@@ -13,7 +19,7 @@ function Place() {
                     {place.photos.map(photo => (
                         <img 
                             key={photo.id} 
-                            src={require(`../../images/khibiny/${photo.image}`)} 
+                            src={require(`../../images/${place.name}/${photo.image}`)} 
                             alt={place.name} 
                             className={`${place.name}${photo.id}`} 
                             style={{

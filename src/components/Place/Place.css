@@ -15,13 +15,23 @@
 
 .place__grid-container {
     display: grid;
+    grid-template-columns: repeat(3, 318px);
+    gap: 30px;
     margin-top: 10px;
 }
 
 .place__grid-container_khibiny {
-    grid-template-columns: repeat(3, 318px);
-    grid-template-rows: repeat(2, 477px) repeat(2, 708px) 503px 1050px 477px 708px 1050px 477px 708px 477px 708px;
-    gap: 30px;
+    grid-template-rows: 
+        repeat(2, 477px) 
+        repeat(2, 708px) 
+        503px 1050px 
+        477px 
+        708px 
+        1050px 
+        477px 
+        708px 
+        477px 
+        708px;
     grid-template-areas:
     "khibiny1 khibiny1 khibiny2"
     "khibiny3 . ."
@@ -36,4 +46,36 @@
     "khibiny16 khibiny16 khibiny16"
     "khibiny17 khibiny18 ."
     "khibiny19 khibiny19 khibiny19";
+}
+
+.place__grid-container_dagestan {
+    grid-template-rows: 
+        477px
+        1050px
+        repeat(3, 708px 477px)
+        708px
+        1050px
+        repeat(2, 477px 708px)
+        1050px
+        477px
+        708px;
+    grid-template-areas:
+    "dagestan1 dagestan1 dagestan2"
+    ". dagestan3 dagestan3"
+    "dagestan4 dagestan4 dagestan4"
+    "dagestan5 dagestan5 dagestan6"
+    "dagestan7 dagestan7 dagestan7"
+    "dagestan8 . ."
+    "dagestan9 dagestan9 dagestan9"
+    ". dagestan10 dagestan11"
+    "dagestan12 dagestan12 dagestan12"
+    "dagestan13 dagestan13 ."
+    ". dagestan14 dagestan15"
+    "dagestan16 dagestan16 dagestan16"
+    "dagestan17 dagestan17 dagestan18"
+    "dagestan19 dagestan19 dagestan19"
+    "dagestan20 dagestan20 ."
+    "dagestan21 dagestan22 dagestan22"
+    "dagestan23 dagestan23 dagestan23"
+    ". dagestan24 dagestan24";
 }

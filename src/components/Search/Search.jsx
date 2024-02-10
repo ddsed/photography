@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import VerticalCarousel from "../VerticalCarousel/VerticalCarousel";
 
 
-function Search({data}) {
+function Search({data, onActiveSlideChange}) {
 
     return (
         <main className="search">
@@ -17,7 +17,7 @@ function Search({data}) {
                     <Link to="https://www.instagram.com/_sedova___/" className="search__insta" rel="noreferrer" target="_blank"></Link>
                 </div>
             </section> 
-            <VerticalCarousel data={data}/>
+            <VerticalCarousel data={data} onActiveSlideChange={onActiveSlideChange}/>
         </main>
     );
 }
