@@ -51,5 +51,61 @@
       {"id": "23", "image": "dagestan23.jpg"},
       {"id": "24", "image": "dagestan24.jpg"}
     ]
+  },
+  "elbrus": {
+    "name": "elbrus",
+    "photos": [
+      {"id": "1", "image": "elbrus1.jpg"},
+      {"id": "2", "image": "elbrus2.jpg"},
+      {"id": "3", "image": "elbrus3.jpg"},
+      {"id": "4", "image": "elbrus4.jpg"},
+      {"id": "5", "image": "elbrus5.jpg"},
+      {"id": "6", "image": "elbrus6.jpg"},
+      {"id": "7", "image": "elbrus7.jpg"},
+      {"id": "8", "image": "elbrus8.jpg"},
+      {"id": "9", "image": "elbrus9.jpg"},
+      {"id": "10", "image": "elbrus10.jpg"},
+      {"id": "11", "image": "elbrus11.jpg"},
+      {"id": "12", "image": "elbrus12.jpg"},
+      {"id": "13", "image": "elbrus13.jpg"},
+      {"id": "14", "image": "elbrus14.jpg"},
+      {"id": "15", "image": "elbrus15.jpg"},
+      {"id": "16", "image": "elbrus16.jpg"},
+      {"id": "17", "image": "elbrus17.jpg"},
+      {"id": "18", "image": "elbrus18.jpg"},
+      {"id": "19", "image": "elbrus19.jpg"},
+      {"id": "20", "image": "elbrus20.jpg"},
+      {"id": "21", "image": "elbrus21.jpg"}
+    ]
+  },
+  "arkhyz": {
+    "name": "arkhyz",
+    "photos": [
+      {"id": "1", "image": "arkhyz1.jpg"},
+      {"id": "2", "image": "arkhyz2.jpg"},
+      {"id": "3", "image": "arkhyz3.jpg"},
+      {"id": "4", "image": "arkhyz4.jpg"},
+      {"id": "5", "image": "arkhyz5.jpg"},
+      {"id": "6", "image": "arkhyz6.jpg"},
+      {"id": "7", "image": "arkhyz7.jpg"},
+      {"id": "8", "image": "arkhyz8.jpg"},
+      {"id": "9", "image": "arkhyz9.jpg"},
+      {"id": "10", "image": "arkhyz10.jpg"},
+      {"id": "11", "image": "arkhyz11.jpg"},
+      {"id": "12", "image": "arkhyz12.jpg"},
+      {"id": "13", "image": "arkhyz13.jpg"},
+      {"id": "14", "image": "arkhyz14.jpg"},
+      {"id": "15", "image": "arkhyz15.jpg"},
+      {"id": "16", "image": "arkhyz16.jpg"},
+      {"id": "17", "image": "arkhyz17.jpg"},
+      {"id": "18", "image": "arkhyz18.jpg"},
+      {"id": "19", "image": "arkhyz19.jpg"},
+      {"id": "20", "image": "arkhyz20.jpg"},
+      {"id": "21", "image": "arkhyz21.jpg"},
+      {"id": "22", "image": "arkhyz22.jpg"},
+      {"id": "23", "image": "arkhyz23.jpg"},
+      {"id": "24", "image": "arkhyz24.jpg"},
+      {"id": "25", "image": "arkhyz25.jpg"}
+    ]
   }
 }

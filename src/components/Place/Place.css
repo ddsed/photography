@@ -79,3 +79,71 @@
     "dagestan23 dagestan23 dagestan23"
     ". dagestan24 dagestan24";
 }
+
+.place__grid-container_elbrus {
+    grid-template-rows: 
+        repeat(2, 708px 477px 1050px)
+        708px
+        repeat(2, 477px)
+        708px
+        1050px
+        477px
+        708px
+        repeat(2, 477px);
+    grid-template-areas:
+    "elbrus1 elbrus1 elbrus1"
+    ". elbrus2 elbrus3"
+    "elbrus4 elbrus4 ."
+    "elbrus5 elbrus5 elbrus5"
+    "elbrus6 elbrus7 elbrus8"
+    ". elbrus9 elbrus9"
+    "elbrus10 elbrus10 elbrus10"
+    "elbrus11 elbrus12 elbrus13"
+    "elbrus14 . ."
+    "elbrus15 elbrus15 elbrus15"
+    "elbrus16 elbrus16 ."
+    "elbrus17 elbrus18 elbrus18"
+    "elbrus19 elbrus19 elbrus19"
+    "elbrus20 elbrus20 ."
+    ". elbrus21 elbrus21";
+}
+
+.place__grid-container_arkhyz {
+    grid-template-rows: 
+        1050px
+        477px
+        repeat(2, 708px)
+        477px
+        1050px
+        repeat(2, 477px)
+        708px
+        477px
+        1050px
+        477px
+        708px
+        1050px
+        repeat(2, 477px)
+        708px
+        1050px
+        477px;
+    grid-template-areas:
+        "arkhyz1 arkhyz1 ."
+        ". arkhyz2 arkhyz3"
+        "arkhyz4 arkhyz4 arkhyz4"
+        "arkhyz5 arkhyz5 arkhyz5"
+        "arkhyz6 arkhyz7 arkhyz7"
+        "arkhyz8 arkhyz8 ."
+        ". arkhyz9 arkhyz9"
+        "arkhyz10 arkhyz10 arkhyz11"
+        "arkhyz12 arkhyz12 arkhyz12"
+        "arkhyz13 arkhyz13 ."
+        ". arkhyz14 arkhyz14"
+        "arkhyz15 arkhyz15 arkhyz16"
+        "arkhyz17 arkhyz17 arkhyz17"
+        "arkhyz18 arkhyz18 ."
+        "arkhyz19 arkhyz20 arkhyz20"
+        ". . arkhyz21"
+        "arkhyz22 arkhyz22 arkhyz22"
+        "arkhyz23 arkhyz23 ."
+        "arkhyz24 arkhyz24 arkhyz25";
+}
