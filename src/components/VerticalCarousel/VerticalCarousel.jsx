@@ -6,8 +6,9 @@ import { ReactComponent as Next } from "../../images/arrow-down.svg";
 import { ReactComponent as Prev } from "../../images/arrow-up.svg";
 
 const VerticalCarousel = ({ data, onActiveSlideChange }) => {
-  const [activeIndex, setActiveIndex] = useState(0);
-
+  const storedActiveIndex = parseInt(localStorage.getItem('activeIndex'), 10) || 0;
+  const [activeIndex, setActiveIndex] = useState(storedActiveIndex);
+  
   // Used to determine which items appear above the active item
   const halfwayIndex = Math.ceil(data.length / 4);
   // Usd to determine the height/spacing of each item
@@ -63,6 +64,7 @@ const VerticalCarousel = ({ data, onActiveSlideChange }) => {
   };
 
   useEffect(() => {
+    localStorage.setItem('activeIndex', activeIndex);
     onActiveSlideChange(data[activeIndex].id.toLowerCase());
   }, [activeIndex])
 
