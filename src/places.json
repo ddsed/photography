@@ -107,5 +107,37 @@
       {"id": "24", "image": "arkhyz24.jpg"},
       {"id": "25", "image": "arkhyz25.jpg"}
     ]
+  },
+  "france": {
+    "name": "france",
+    "photos": [
+      {"id": "1", "image": "france1.jpg"},
+      {"id": "2", "image": "france2.jpg"},
+      {"id": "3", "image": "france3.jpg"},
+      {"id": "4", "image": "france4.jpg"},
+      {"id": "5", "image": "france5.jpg"},
+      {"id": "6", "image": "france6.jpg"},
+      {"id": "7", "image": "france7.jpg"},
+      {"id": "8", "image": "france8.jpg"},
+      {"id": "9", "image": "france9.jpg"},
+      {"id": "10", "image": "france10.jpg"},
+      {"id": "11", "image": "france11.jpg"},
+      {"id": "12", "image": "france12.jpg"},
+      {"id": "13", "image": "france13.jpg"},
+      {"id": "14", "image": "france14.jpg"},
+      {"id": "15", "image": "france15.jpg"},
+      {"id": "16", "image": "france16.jpg"},
+      {"id": "17", "image": "france17.jpg"},
+      {"id": "18", "image": "france18.jpg"},
+      {"id": "19", "image": "france19.jpg"},
+      {"id": "20", "image": "france20.jpg"},
+      {"id": "21", "image": "france21.jpg"},
+      {"id": "22", "image": "france22.jpg"},
+      {"id": "23", "image": "france23.jpg"},
+      {"id": "24", "image": "france24.jpg"},
+      {"id": "25", "image": "france25.jpg"},
+      {"id": "26", "image": "france26.jpg"},
+      {"id": "27", "image": "france27.jpg"}
+    ]
   }
 }

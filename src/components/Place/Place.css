@@ -147,3 +147,40 @@
         "arkhyz23 arkhyz23 ."
         "arkhyz24 arkhyz24 arkhyz25";
 }
+
+.place__grid-container_france {
+    grid-template-rows: 
+        477px
+        1050px
+        477px
+        708px
+        477px
+        repeat(2, 1050px 477px 708px)
+        repeat(2, 477px)
+        708px
+        1050px
+        repeat(2, 477px)
+        708px
+        1050px
+        ;
+    grid-template-areas:
+    "france1 france2 france2"
+    "france3 france3 ."
+    "france4 france5 france6"
+    "france7 france7 france7"
+    "france8 france8 france9"
+    ". france10 france10"
+    "france11 france12 ."
+    "france13 france13 france13"
+    "france14 france14 ."
+    ". france15 france16"
+    "france17 france17 france17"
+    ". . france18"
+    "france19 france20 france20"
+    "france21 france21 france21"
+    "france22 france22 ."
+    "france23 france24 france24"
+    ". . france25"
+    "france26 france26 france26"
+    "france27 france27 .";
+}
