@@ -6,10 +6,11 @@ import Place from '../Place/Place';
 import data from "../../data.json";
 
 function App() {
-  const [activeSlideId, setActiveSlideId] = useState(null);
+  const [activeSlideId, setActiveSlideId] = useState(localStorage.getItem('activeSlideId') || 'default');
 
   const handleActiveSlideChange = (id) => {
     setActiveSlideId(id);
+    localStorage.setItem('activeSlideId', id);
   };
   
   return (
