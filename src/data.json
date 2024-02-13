@@ -9,8 +9,8 @@
       "image": "lofotens.jpg"
     },
     {
-      "id": "KAMCHATKA",
-      "image": "kamchatka.jpg"
+      "id": "KAMCHATKA_SURF",
+      "image": "kamchatka_surf.jpg"
     },
     {
       "id": "AFRICA",
@@ -27,6 +27,10 @@
     {
       "id": "ITALY",
       "image": "italy.jpg"
+    },
+    {
+      "id": "KAMCHATKA_HIKE",
+      "image": "kamchatka_hike.jpg"
     },
     {
       "id": "ARKHYZ",

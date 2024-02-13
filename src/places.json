@@ -163,5 +163,41 @@
       {"id": "18", "image": "italy18.jpg"},
       {"id": "19", "image": "italy19.jpg"}
     ]
+  },
+  "kamchatka_surf": {
+    "name": "kamchatka_surf",
+    "photos": [
+      {"id": "1", "image": "kamchatka_surf1.jpg"},
+      {"id": "2", "image": "kamchatka_surf2.jpg"},
+      {"id": "3", "image": "kamchatka_surf3.jpg"},
+      {"id": "4", "image": "kamchatka_surf4.jpg"},
+      {"id": "5", "image": "kamchatka_surf5.jpg"},
+      {"id": "6", "image": "kamchatka_surf6.jpg"},
+      {"id": "7", "image": "kamchatka_surf7.jpg"},
+      {"id": "8", "image": "kamchatka_surf8.jpg"},
+      {"id": "9", "image": "kamchatka_surf9.jpg"},
+      {"id": "10", "image": "kamchatka_surf10.jpg"},
+      {"id": "11", "image": "kamchatka_surf11.jpg"},
+      {"id": "12", "image": "kamchatka_surf12.jpg"},
+      {"id": "13", "image": "kamchatka_surf13.jpg"},
+      {"id": "14", "image": "kamchatka_surf14.jpg"},
+      {"id": "15", "image": "kamchatka_surf15.jpg"},
+      {"id": "16", "image": "kamchatka_surf16.jpg"},
+      {"id": "17", "image": "kamchatka_surf17.jpg"},
+      {"id": "18", "image": "kamchatka_surf18.jpg"},
+      {"id": "19", "image": "kamchatka_surf19.jpg"},
+      {"id": "20", "image": "kamchatka_surf20.jpg"},
+      {"id": "21", "image": "kamchatka_surf21.jpg"},
+      {"id": "22", "image": "kamchatka_surf22.jpg"},
+      {"id": "23", "image": "kamchatka_surf23.jpg"},
+      {"id": "24", "image": "kamchatka_surf24.jpg"},
+      {"id": "25", "image": "kamchatka_surf25.jpg"},
+      {"id": "26", "image": "kamchatka_surf26.jpg"},
+      {"id": "27", "image": "kamchatka_surf27.jpg"},
+      {"id": "28", "image": "kamchatka_surf28.jpg"},
+      {"id": "29", "image": "kamchatka_surf29.jpg"},
+      {"id": "30", "image": "kamchatka_surf30.jpg"},
+      {"id": "31", "image": "kamchatka_surf31.jpg"}
+    ]
   }
 }

@@ -220,3 +220,47 @@
     "italy19 italy19 ."
     ;
 }
+
+.place__grid-container_kamchatka_surf {
+    grid-template-rows: 
+        477px
+        1050px
+        repeat(3, 477px)
+        708px
+        477px
+        1050px
+        477px
+        708px
+        477px
+        1050px
+        708px
+        repeat(2, 477px)
+        1050px
+        477px
+        708px
+        477px
+        1050px
+        ;
+    grid-template-areas:
+    "kamchatka_surf1 kamchatka_surf2 kamchatka_surf2"
+    ". kamchatka_surf3 kamchatka_surf3"
+    "kamchatka_surf4 kamchatka_surf4 ."
+    "kamchatka_surf5 kamchatka_surf6 kamchatka_surf7"
+    "kamchatka_surf8 kamchatka_surf9 kamchatka_surf10"
+    "kamchatka_surf11 kamchatka_surf11 kamchatka_surf11"
+    ". . kamchatka_surf12"
+    "kamchatka_surf13 kamchatka_surf13 ."
+    ". kamchatka_surf14 kamchatka_surf15"
+    "kamchatka_surf16 kamchatka_surf16 kamchatka_surf16"
+    "kamchatka_surf17 kamchatka_surf17 ."
+    ". kamchatka_surf18 kamchatka_surf18"
+    "kamchatka_surf19 kamchatka_surf19 kamchatka_surf19"
+    "kamchatka_surf20 kamchatka_surf21 kamchatka_surf22"
+    "kamchatka_surf23 kamchatka_surf24 kamchatka_surf25"
+    "kamchatka_surf26 kamchatka_surf26 ."
+    "kamchatka_surf27 kamchatka_surf28 kamchatka_surf28"
+    "kamchatka_surf29 kamchatka_surf29 kamchatka_surf29"
+    ". kamchatka_surf30 kamchatka_surf30"
+    "kamchatka_surf31 kamchatka_surf31 ."
+    ;
+}
