@@ -184,3 +184,33 @@
     "france26 france26 france26"
     "france27 france27 .";
 }
+
+.place__grid-container_italy {
+    grid-template-rows: 
+        1050px
+        477px
+        repeat(2, 708px)
+        477px
+        1050px
+        708px
+        repeat(2, 477px)
+        1050px
+        repeat(2, 477px)
+        1050px
+        ;
+    grid-template-areas:
+    "italy1 italy1 ."
+    ". italy2 italy3"
+    "italy4 italy4 italy4"
+    "italy5 italy5 italy5"
+    "italy6 . ."
+    "italy7 italy7 ."
+    "italy8 italy8 italy8"
+    ". italy9 italy10"
+    "italy11 italy11 ."
+    ". italy12 italy12"
+    "italy13 italy14 italy15"
+    "italy16 italy17 italy18"
+    "italy19 italy19 ."
+    ;
+}
