@@ -41,16 +41,17 @@
   display: flex;
   align-self: center;
   border: 0;
-  width: 24px;
-  height: 24px;
+  width: 28px;
+  height: 28px;
   background: transparent;
   padding: 0;
   cursor: pointer;
+  outline: none;
 }
 
 .carousel__button svg {
-  height: 24px;
-  width: 24px;
+  height: 28px;
+  width: 28px;
   align-self: center;
 }
 
