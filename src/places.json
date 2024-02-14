@@ -228,5 +228,37 @@
       {"id": "23", "image": "kamchatka_hike23.jpg"},
       {"id": "24", "image": "kamchatka_hike24.jpg"}
     ]
+  },
+  "lofotens": {
+    "name": "lofotens",
+    "photos": [
+      {"id": "1", "image": "lofotens1.jpg"},
+      {"id": "2", "image": "lofotens2.jpg"},
+      {"id": "3", "image": "lofotens3.jpg"},
+      {"id": "4", "image": "lofotens4.jpg"},
+      {"id": "5", "image": "lofotens5.jpg"},
+      {"id": "6", "image": "lofotens6.jpg"},
+      {"id": "7", "image": "lofotens7.jpg"},
+      {"id": "8", "image": "lofotens8.jpg"},
+      {"id": "9", "image": "lofotens9.jpg"},
+      {"id": "10", "image": "lofotens10.jpg"},
+      {"id": "11", "image": "lofotens11.jpg"},
+      {"id": "12", "image": "lofotens12.jpg"},
+      {"id": "13", "image": "lofotens13.jpg"},
+      {"id": "14", "image": "lofotens14.jpg"},
+      {"id": "15", "image": "lofotens15.jpg"},
+      {"id": "16", "image": "lofotens16.jpg"},
+      {"id": "17", "image": "lofotens17.jpg"},
+      {"id": "18", "image": "lofotens18.jpg"},
+      {"id": "19", "image": "lofotens19.jpg"},
+      {"id": "20", "image": "lofotens20.jpg"},
+      {"id": "21", "image": "lofotens21.jpg"},
+      {"id": "22", "image": "lofotens22.jpg"},
+      {"id": "23", "image": "lofotens23.jpg"},
+      {"id": "24", "image": "lofotens24.jpg"},
+      {"id": "25", "image": "lofotens25.jpg"},
+      {"id": "26", "image": "lofotens26.jpg"},
+      {"id": "27", "image": "lofotens27.jpg"}
+    ]
   }
 }

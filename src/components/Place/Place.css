@@ -301,3 +301,47 @@
     ". kamchatka_hike24 kamchatka_hike24"
     ;
 }
+
+.place__grid-container_lofotens {
+    grid-template-rows: 
+        708px
+        repeat(4, 477px)
+        1050px
+        477px
+        708px
+        477px
+        1050px
+        repeat(2, 477px)
+        708px
+        1050px 
+        477px 
+        708px 
+        477px
+        1050px
+        708px
+        repeat(2, 477px)
+        ;
+    grid-template-areas:
+    "lofotens1 lofotens1 lofotens1"
+    "lofotens2 lofotens2 lofotens3"
+    ". lofotens4 lofotens4"
+    "lofotens5 lofotens5 ."
+    ". lofotens6 lofotens7"
+    "lofotens8 lofotens8 ."
+    ". lofotens9 lofotens9"
+    "lofotens10 lofotens10 lofotens10"
+    ". . lofotens11"
+    "lofotens12 lofotens12 ."
+    ". lofotens13 lofotens13"
+    "lofotens14 lofotens15 ."
+    "lofotens16 lofotens16 lofotens16"
+    ". lofotens17 lofotens17"
+    "lofotens18 lofotens19 ."
+    "lofotens20 lofotens20 lofotens20"
+    ". lofotens21 lofotens22"
+    "lofotens23 lofotens23 ."
+    "lofotens24 lofotens24 lofotens24"
+    "lofotens25 lofotens26 lofotens26"
+    "lofotens27 lofotens27 ."
+    ;
+}
