@@ -264,3 +264,40 @@
     "kamchatka_surf31 kamchatka_surf31 ."
     ;
 }
+
+.place__grid-container_kamchatka_hike {
+    grid-template-rows: 
+        708px
+        repeat(2, 477px)
+        1050px
+        repeat(2, 477px)
+        708px
+        477px
+        1050px
+        477px
+        708px
+        repeat(2, 477px)
+        1050px
+        repeat(2, 477px)
+        1050px
+        ;
+    grid-template-areas:
+    "kamchatka_hike1 kamchatka_hike1 kamchatka_hike1"
+    "kamchatka_hike2 kamchatka_hike3 ."
+    ". kamchatka_hike4 kamchatka_hike4"
+    "kamchatka_hike5 kamchatka_hike5 ."
+    "kamchatka_hike6 kamchatka_hike7 kamchatka_hike7"
+    "kamchatka_hike8 kamchatka_hike8 ."
+    "kamchatka_hike9 kamchatka_hike9 kamchatka_hike9"
+    "kamchatka_hike10 . ."
+    ". kamchatka_hike11 kamchatka_hike11"
+    "kamchatka_hike12 kamchatka_hike13 kamchatka_hike14"
+    "kamchatka_hike15 kamchatka_hike15 kamchatka_hike15"
+    "kamchatka_hike16 kamchatka_hike16 ."
+    "kamchatka_hike17 kamchatka_hike18 kamchatka_hike19"
+    "kamchatka_hike20 kamchatka_hike20 ."
+    ". kamchatka_hike21 kamchatka_hike21"
+    "kamchatka_hike22 kamchatka_hike22 kamchatka_hike23"
+    ". kamchatka_hike24 kamchatka_hike24"
+    ;
+}

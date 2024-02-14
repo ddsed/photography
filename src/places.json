@@ -199,5 +199,34 @@
       {"id": "30", "image": "kamchatka_surf30.jpg"},
       {"id": "31", "image": "kamchatka_surf31.jpg"}
     ]
+  },
+  "kamchatka_hike": {
+    "name": "kamchatka_hike",
+    "photos": [
+      {"id": "1", "image": "kamchatka_hike1.jpg"},
+      {"id": "2", "image": "kamchatka_hike2.jpg"},
+      {"id": "3", "image": "kamchatka_hike3.jpg"},
+      {"id": "4", "image": "kamchatka_hike4.jpg"},
+      {"id": "5", "image": "kamchatka_hike5.jpg"},
+      {"id": "6", "image": "kamchatka_hike6.jpg"},
+      {"id": "7", "image": "kamchatka_hike7.jpg"},
+      {"id": "8", "image": "kamchatka_hike8.jpg"},
+      {"id": "9", "image": "kamchatka_hike9.jpg"},
+      {"id": "10", "image": "kamchatka_hike10.jpg"},
+      {"id": "11", "image": "kamchatka_hike11.jpg"},
+      {"id": "12", "image": "kamchatka_hike12.jpg"},
+      {"id": "13", "image": "kamchatka_hike13.jpg"},
+      {"id": "14", "image": "kamchatka_hike14.jpg"},
+      {"id": "15", "image": "kamchatka_hike15.jpg"},
+      {"id": "16", "image": "kamchatka_hike16.jpg"},
+      {"id": "17", "image": "kamchatka_hike17.jpg"},
+      {"id": "18", "image": "kamchatka_hike18.jpg"},
+      {"id": "19", "image": "kamchatka_hike19.jpg"},
+      {"id": "20", "image": "kamchatka_hike20.jpg"},
+      {"id": "21", "image": "kamchatka_hike21.jpg"},
+      {"id": "22", "image": "kamchatka_hike22.jpg"},
+      {"id": "23", "image": "kamchatka_hike23.jpg"},
+      {"id": "24", "image": "kamchatka_hike24.jpg"}
+    ]
   }
 }
