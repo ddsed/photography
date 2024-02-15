@@ -50,7 +50,7 @@
     background-image: url(../../images/icon-chosen.svg);
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1050px) {
     .header {
         width: unset;
     }
