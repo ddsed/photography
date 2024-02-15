@@ -345,3 +345,82 @@
     "lofotens27 lofotens27 ."
     ;
 }
+
+.place__grid-container_africa_animals {
+    grid-template-rows: 
+        708px
+        477px
+        repeat(2, 1050px 477px)
+        708px
+        477px
+        1050px
+        repeat(3, 477px)
+        1050px
+        708px
+        repeat(2, 477px)
+        ;
+    grid-template-areas:
+    "africa_animals1 africa_animals1 africa_animals1"
+    "africa_animals2 africa_animals3 ."
+    ". africa_animals4 africa_animals4"
+    "africa_animals5 africa_animals5 ."
+    ". africa_animals6 africa_animals6"
+    "africa_animals7 africa_animals8 ."
+    "africa_animals9 africa_animals9 africa_animals9"
+    "africa_animals10 africa_animals10 africa_animals11"
+    ". africa_animals12 africa_animals12"
+    "africa_animals13 . ."
+    ". africa_animals14 africa_animals14"
+    "africa_animals15 africa_animals15 africa_animals16"
+    ". africa_animals17 africa_animals17"
+    "africa_animals18 africa_animals18 africa_animals18"
+    "africa_animals19 africa_animals20 ."
+    ". africa_animals21 africa_animals21"
+    ;
+}
+
+.place__grid-container_africa_desert {
+    grid-template-rows: 
+        708px
+        repeat(2, 477px)
+        1050px
+        477px
+        708px
+        477px
+        1050px
+        477px
+        708px
+        477px
+        1050px
+        repeat(2, 477px)
+        708px
+        477px
+        1050px
+        477px
+        708px
+        repeat(2, 477px)
+        ;
+    grid-template-areas:
+    "africa_desert1 africa_desert1 africa_desert1"
+    "africa_desert2 africa_desert2 africa_desert3"
+    ". africa_desert4 africa_desert4"
+    "africa_desert5 africa_desert5 ."
+    ". africa_desert6 africa_desert6"
+    "africa_desert7 africa_desert7 africa_desert7"
+    "africa_desert8 africa_desert9 africa_desert9"
+    "africa_desert10 africa_desert10 ."
+    ". africa_desert11 africa_desert11"
+    "africa_desert12 africa_desert12 africa_desert12"
+    "africa_desert13 africa_desert14 africa_desert14"
+    "africa_desert15 africa_desert15 ."
+    "africa_desert16 . ."
+    ". africa_desert17 africa_desert17"
+    "africa_desert18 africa_desert18 africa_desert18"
+    "africa_desert19 africa_desert20 africa_desert21"
+    "africa_desert22 africa_desert22 ."
+    " africa_desert23 africa_desert23"
+    "africa_desert24 africa_desert24 africa_desert24"
+    "africa_desert25 africa_desert25 africa_desert26"
+    "africa_desert27 . ."
+    ;
+}

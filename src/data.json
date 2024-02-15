@@ -13,8 +13,8 @@
       "image": "kamchatka_surf.jpg"
     },
     {
-      "id": "AFRICA",
-      "image": "africa.jpg"
+      "id": "AFRICA_DESERT",
+      "image": "africa_desert.jpg"
     },
     {
       "id": "FRANCE",
@@ -39,6 +39,10 @@
     {
       "id": "ELBRUS",
       "image": "elbrus.jpg"
+    },
+    {
+      "id": "AFRICA_ANIMALS",
+      "image": "africa_animals.jpg"
     }
   ]
 }

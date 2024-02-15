@@ -260,5 +260,63 @@
       {"id": "26", "image": "lofotens26.jpg"},
       {"id": "27", "image": "lofotens27.jpg"}
     ]
+  },
+  "africa_animals": {
+    "name": "africa_animals",
+    "photos": [
+      {"id": "1", "image": "africa_animals1.jpg"},
+      {"id": "2", "image": "africa_animals2.jpg"},
+      {"id": "3", "image": "africa_animals3.jpg"},
+      {"id": "4", "image": "africa_animals4.jpg"},
+      {"id": "5", "image": "africa_animals5.jpg"},
+      {"id": "6", "image": "africa_animals6.jpg"},
+      {"id": "7", "image": "africa_animals7.jpg"},
+      {"id": "8", "image": "africa_animals8.jpg"},
+      {"id": "9", "image": "africa_animals9.jpg"},
+      {"id": "10", "image": "africa_animals10.jpg"},
+      {"id": "11", "image": "africa_animals11.jpg"},
+      {"id": "12", "image": "africa_animals12.jpg"},
+      {"id": "13", "image": "africa_animals13.jpg"},
+      {"id": "14", "image": "africa_animals14.jpg"},
+      {"id": "15", "image": "africa_animals15.jpg"},
+      {"id": "16", "image": "africa_animals16.jpg"},
+      {"id": "17", "image": "africa_animals17.jpg"},
+      {"id": "18", "image": "africa_animals18.jpg"},
+      {"id": "19", "image": "africa_animals19.jpg"},
+      {"id": "20", "image": "africa_animals20.jpg"},
+      {"id": "21", "image": "africa_animals21.jpg"}
+    ]
+  },
+  "africa_desert": {
+    "name": "africa_desert",
+    "photos": [
+      {"id": "1", "image": "africa_desert1.jpg"},
+      {"id": "2", "image": "africa_desert2.jpg"},
+      {"id": "3", "image": "africa_desert3.jpg"},
+      {"id": "4", "image": "africa_desert4.jpg"},
+      {"id": "5", "image": "africa_desert5.jpg"},
+      {"id": "6", "image": "africa_desert6.jpg"},
+      {"id": "7", "image": "africa_desert7.jpg"},
+      {"id": "8", "image": "africa_desert8.jpg"},
+      {"id": "9", "image": "africa_desert9.jpg"},
+      {"id": "10", "image": "africa_desert10.jpg"},
+      {"id": "11", "image": "africa_desert11.jpg"},
+      {"id": "12", "image": "africa_desert12.jpg"},
+      {"id": "13", "image": "africa_desert13.jpg"},
+      {"id": "14", "image": "africa_desert14.jpg"},
+      {"id": "15", "image": "africa_desert15.jpg"},
+      {"id": "16", "image": "africa_desert16.jpg"},
+      {"id": "17", "image": "africa_desert17.jpg"},
+      {"id": "18", "image": "africa_desert18.jpg"},
+      {"id": "19", "image": "africa_desert19.jpg"},
+      {"id": "20", "image": "africa_desert20.jpg"},
+      {"id": "21", "image": "africa_desert21.jpg"},
+      {"id": "22", "image": "africa_desert22.jpg"},
+      {"id": "23", "image": "africa_desert23.jpg"},
+      {"id": "24", "image": "africa_desert24.jpg"},
+      {"id": "25", "image": "africa_desert25.jpg"},
+      {"id": "26", "image": "africa_desert26.jpg"},
+      {"id": "27", "image": "africa_desert27.jpg"}
+    ]
   }
 }
