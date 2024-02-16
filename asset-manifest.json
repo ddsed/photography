@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/photography/static/css/main.4676263d.css",
-    "main.js": "/photography/static/js/main.e8f97197.js",
+    "main.css": "/photography/static/css/main.61829a6e.css",
+    "main.js": "/photography/static/js/main.871b4b4e.js",
     "static/media/dagestan4.jpg": "/photography/static/media/dagestan4.4160714b065a03e2f47b.jpg",
     "static/media/italy17.jpg": "/photography/static/media/italy17.868063fab39c1dcb754c.jpg",
     "static/media/dagestan.jpg": "/photography/static/media/dagestan.41e98df1b5ca001a1fb1.jpg",
@@ -289,11 +289,11 @@
     "index.html": "/photography/index.html",
     "static/media/arrow-down.svg": "/photography/static/media/arrow-down.1554194ec194eb3512703f7995201ad4.svg",
     "static/media/arrow-up.svg": "/photography/static/media/arrow-up.a20c9f9daa3b0832be5c6bd5f1ff59ae.svg",
-    "main.4676263d.css.map": "/photography/static/css/main.4676263d.css.map",
-    "main.e8f97197.js.map": "/photography/static/js/main.e8f97197.js.map"
+    "main.61829a6e.css.map": "/photography/static/css/main.61829a6e.css.map",
+    "main.871b4b4e.js.map": "/photography/static/js/main.871b4b4e.js.map"
   },
   "entrypoints": [
-    "static/css/main.4676263d.css",
-    "static/js/main.e8f97197.js"
+    "static/css/main.61829a6e.css",
+    "static/js/main.871b4b4e.js"
   ]
 }
