@@ -5,7 +5,7 @@
 }
 
 .place__section {
-    margin: 32px 103px 0;
+    margin-top: 32px;
 }
 
 .place__back {
@@ -23,21 +23,11 @@
     display: grid;
     grid-template-columns: repeat(3, 318px);
     gap: 30px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .place__grid-container_khibiny {
-    grid-template-rows: 
-        repeat(2, 477px) 
-        repeat(2, 708px) 
-        503px 1050px 
-        477px 
-        708px 
-        1050px 
-        477px 
-        708px 
-        477px 
-        708px;
+    grid-auto-rows: auto; 
     grid-template-areas:
     "khibiny1 khibiny1 khibiny2"
     "khibiny3 . ."
@@ -55,16 +45,7 @@
 }
 
 .place__grid-container_dagestan {
-    grid-template-rows: 
-        477px
-        1050px
-        repeat(3, 708px 477px)
-        708px
-        1050px
-        repeat(2, 477px 708px)
-        1050px
-        477px
-        708px;
+    grid-auto-rows: auto; 
     grid-template-areas:
     "dagestan1 dagestan1 dagestan2"
     ". dagestan3 dagestan3"
@@ -87,15 +68,7 @@
 }
 
 .place__grid-container_elbrus {
-    grid-template-rows: 
-        repeat(2, 708px 477px 1050px)
-        708px
-        repeat(2, 477px)
-        708px
-        1050px
-        477px
-        708px
-        repeat(2, 477px);
+    grid-auto-rows: auto; 
     grid-template-areas:
     "elbrus1 elbrus1 elbrus1"
     ". elbrus2 elbrus3"
@@ -115,23 +88,7 @@
 }
 
 .place__grid-container_arkhyz {
-    grid-template-rows: 
-        1050px
-        477px
-        repeat(2, 708px)
-        477px
-        1050px
-        repeat(2, 477px)
-        708px
-        477px
-        1050px
-        477px
-        708px
-        1050px
-        repeat(2, 477px)
-        708px
-        1050px
-        477px;
+    grid-auto-rows: auto; 
     grid-template-areas:
         "arkhyz1 arkhyz1 ."
         ". arkhyz2 arkhyz3"
@@ -155,20 +112,7 @@
 }
 
 .place__grid-container_france {
-    grid-template-rows: 
-        477px
-        1050px
-        477px
-        708px
-        477px
-        repeat(2, 1050px 477px 708px)
-        repeat(2, 477px)
-        708px
-        1050px
-        repeat(2, 477px)
-        708px
-        1050px
-        ;
+    grid-auto-rows: auto; 
     grid-template-areas:
     "france1 france2 france2"
     "france3 france3 ."
@@ -192,18 +136,7 @@
 }
 
 .place__grid-container_italy {
-    grid-template-rows: 
-        1050px
-        477px
-        repeat(2, 708px)
-        477px
-        1050px
-        708px
-        repeat(2, 477px)
-        1050px
-        repeat(2, 477px)
-        1050px
-        ;
+    grid-auto-rows: auto; 
     grid-template-areas:
     "italy1 italy1 ."
     ". italy2 italy3"
@@ -222,25 +155,7 @@
 }
 
 .place__grid-container_kamchatka_surf {
-    grid-template-rows: 
-        477px
-        1050px
-        repeat(3, 477px)
-        708px
-        477px
-        1050px
-        477px
-        708px
-        477px
-        1050px
-        708px
-        repeat(2, 477px)
-        1050px
-        477px
-        708px
-        477px
-        1050px
-        ;
+    grid-auto-rows: auto; 
     grid-template-areas:
     "kamchatka_surf1 kamchatka_surf2 kamchatka_surf2"
     ". kamchatka_surf3 kamchatka_surf3"
@@ -266,21 +181,7 @@
 }
 
 .place__grid-container_kamchatka_hike {
-    grid-template-rows: 
-        708px
-        repeat(2, 477px)
-        1050px
-        repeat(2, 477px)
-        708px
-        477px
-        1050px
-        477px
-        708px
-        repeat(2, 477px)
-        1050px
-        repeat(2, 477px)
-        1050px
-        ;
+    grid-auto-rows: auto; 
     grid-template-areas:
     "kamchatka_hike1 kamchatka_hike1 kamchatka_hike1"
     "kamchatka_hike2 kamchatka_hike3 ."
@@ -303,24 +204,7 @@
 }
 
 .place__grid-container_lofotens {
-    grid-template-rows: 
-        708px
-        repeat(4, 477px)
-        1050px
-        477px
-        708px
-        477px
-        1050px
-        repeat(2, 477px)
-        708px
-        1050px 
-        477px 
-        708px 
-        477px
-        1050px
-        708px
-        repeat(2, 477px)
-        ;
+    grid-auto-rows: auto; 
     grid-template-areas:
     "lofotens1 lofotens1 lofotens1"
     "lofotens2 lofotens2 lofotens3"
@@ -347,18 +231,7 @@
 }
 
 .place__grid-container_africa_animals {
-    grid-template-rows: 
-        708px
-        477px
-        repeat(2, 1050px 477px)
-        708px
-        477px
-        1050px
-        repeat(3, 477px)
-        1050px
-        708px
-        repeat(2, 477px)
-        ;
+    grid-auto-rows: auto; 
     grid-template-areas:
     "africa_animals1 africa_animals1 africa_animals1"
     "africa_animals2 africa_animals3 ."
@@ -380,26 +253,7 @@
 }
 
 .place__grid-container_africa_desert {
-    grid-template-rows: 
-        708px
-        repeat(2, 477px)
-        1050px
-        477px
-        708px
-        477px
-        1050px
-        477px
-        708px
-        477px
-        1050px
-        repeat(2, 477px)
-        708px
-        477px
-        1050px
-        477px
-        708px
-        repeat(2, 477px)
-        ;
+    grid-auto-rows: auto; 
     grid-template-areas:
     "africa_desert1 africa_desert1 africa_desert1"
     "africa_desert2 africa_desert2 africa_desert3"
@@ -424,3 +278,46 @@
     "africa_desert27 . . "
     ;
 }
+
+@media screen and (max-width: 1050px) {
+    .place__section {
+        width: calc(100vw - 80px);
+    }
+
+    .place__grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .place__section {
+        margin-top: 22px;
+    }
+
+    .place__grid-container {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .place__section {
+        margin-top: 12px;
+    }
+
+    .place__grid-container {
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .place__section {
+        width: calc(100vw - 40px);
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .place__section {
+        margin-bottom: 10px;
+    }
+}
+

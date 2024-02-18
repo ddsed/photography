@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
-import UnderConstruction from '../UnderConstruction/UnderConstruction';
+//import UnderConstruction from '../UnderConstruction/UnderConstruction';
 import Main from '../Main/Main';
 import Search from '../Search/Search';
 import Place from '../Place/Place';
@@ -8,7 +8,7 @@ import data from "../../data.json";
 
 function App() {
   const [activeSlideId, setActiveSlideId] = useState(localStorage.getItem('activeSlideId') || 'default');
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  /*const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const isUnderConstruction = windowWidth < 1050;
 
   useEffect(() => {
@@ -21,7 +21,7 @@ function App() {
     return () => {
       window.removeEventListener('resize', handleResize);
     };
-  }, []);
+  }, []);*/
 
   const handleActiveSlideChange = (id) => {
     setActiveSlideId(id);
