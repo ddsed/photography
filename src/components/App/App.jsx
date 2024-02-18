@@ -30,13 +30,14 @@ function App() {
   
   return (
     <div className="page">
+      {/*
       {isUnderConstruction 
       ? 
       (
         <UnderConstruction />
       ) 
       : 
-      (
+      (*/}
       <Routes>
         <Route path="/" element={ <Main />}/>
         <Route path="/search" element={ <Search data={data.slides} onActiveSlideChange={handleActiveSlideChange}/>}/>
@@ -48,7 +49,7 @@ function App() {
           />
         ))}
       </Routes>
-      )}
+      {/*})}*/}
     </div>
   );
 }

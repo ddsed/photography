@@ -52,6 +52,13 @@
 
 @media screen and (max-width: 1050px) {
     .header {
-        width: unset;
+        width: calc(100vw - 80px);
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .header {
+        width: calc(100vw - 40px);
+        margin-top: 30px;
     }
 }

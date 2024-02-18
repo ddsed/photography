@@ -11,6 +11,23 @@
 
 @media screen and (max-width: 1050px) {
     .footer {
-        width: unset;
+        width: calc(100vw - 80px);
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .footer {
+        width: calc(100vw - 40px);
+        margin-top: 60px;
+    }
+
+    .footer__rights {
+        padding-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .footer {
+        margin-top: 10px;
     }
 }
