@@ -12,7 +12,7 @@
 	display: flex;
 	visibility: hidden;
 	opacity: 0;
-	transition: visibility .2s, opacity .2s ease-in-out;
+	transition: visibility .4s, opacity .4s ease-in-out;
 }
 
 .popup_opened {
@@ -22,7 +22,36 @@
 	cursor: pointer;
 }
 
+.popup__content {
+    position: relative;
+}
+
+.popup__close-button {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    background-image: url('../../images/close.svg');
+    width: 24px;
+    height: 24px;
+
+    position: absolute;
+    top: -20px;
+    right: -20px;
+
+    opacity: 0;
+    transition: opacity 0.0s ease-in-out; 
+}
+
+.popup__close-button:hover {
+    cursor: pointer;
+}
+
+.popup_opened .popup__close-button {
+    opacity: 1;
+}
+
 .popup__photo {
-    max-width: 75vw;
-    max-height: 75vh;
+    max-width: 85vw;
+    max-height: 85vh;
 }

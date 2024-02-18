@@ -19,6 +19,12 @@ function Place({activeSlideId}) {
         setIsOpen(false);
     };
 
+    const handleOverlayClick = (event) => {
+        if (event.target.classList.contains('popup')) {
+            closePopup();
+        }
+    };
+
     if (!place) {
         return <div>Place not found</div>;
     }
@@ -46,7 +52,7 @@ function Place({activeSlideId}) {
                         />
                         </>
                     ))}
-                    <div className={`popup ${isOpen ? 'popup_opened' : ''}`}>
+                    <div className={`popup ${isOpen ? 'popup_opened' : ''}`} onClick={handleOverlayClick}>
                         <div className="popup__content">
                         <button className="popup__close-button" type="button" onClick={closePopup}></button>
                         {selectedPhoto && (
