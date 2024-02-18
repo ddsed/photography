@@ -12,6 +12,7 @@
     font-size: 32px;
     font-weight: 400;
     margin: calc(100vh/2 - 100px) 0;
+    color: black;
 }
 
 .main__button:hover {
